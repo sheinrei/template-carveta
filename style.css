@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 17px;
+}
+
+/* preambul */
+.preambul{
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15%;
+    color:white;
+}
+
+/* Content */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+
+.img_content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title_content{
+    color:rgb(148, 197, 205);
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title_content::before{
+    content:"";
+    width: 10px;height: 1px;
+    background-color :rgb(148, 197, 205);
+    position:relative;
+    top:50%;left:-15px
+    
+}
+.title_content::after{
+    content:"";
+    width: 10px;height: 1px;
+    background-color :rgb(148, 197, 205);
+    position:relative;
+    bottom:50%;left:105%
+    
+}
+
+span{
+    color:black;
+    font-size: 2.6em;
+    margin-top: 15px;
+}
+
+.a_content{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(148, 197, 205);
+    padding: 5px 20px;
+}
+/* Hightlights*/
+
+
+.highlights_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+/* Menu */
+.menu_content{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+}   
+
+.container_menu_content{
+    display: flex;
+
+}
+
+.presention_menu{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.menu_tomato{
+    border:1px solid rgb(9, 5, 5);
+}
+
+/* Fact */ 
+
+.fact{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.div_container_div_svg{
+    display:flex;
+    flex-direction: row;
+}
+
+.layout_div_svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.fact_top{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.svg{
+    width: 15%;
+}
+
+/* contact us */
+.contact_us{
+    display:flex;
+    width: 50%;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+
+}
+
