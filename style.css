@@ -22,7 +22,7 @@ html{
 .content{
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 
@@ -40,6 +40,7 @@ html{
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0;
 }
 .title_content::before{
     content:"";
@@ -87,46 +88,71 @@ span{
     width: 50%;
     align-items: center;
     flex-direction: column;
-    justify-items: center;
+
 }   
 
 .container_menu_content{
     display: flex;
-
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 100%;
+    margin: 40px 0;
+   
 }
 
-.presention_menu{
+.presentation_menu{
     display:flex;
-    flex-direction: column;
-    
+    border-bottom:1px dashed black;
+    justify-content: space-between;
+    font-weight: bold;
 }
 
-.menu_tomato{
-    border:1px solid rgb(9, 5, 5);
+.menu_ingredient{
+    font-size: 0.7em;
+    color:rgb(92, 92, 92);
+    font-style: italic;
+}
+
+.menu_column_one{
+    width: 40%;
 }
 
 /* Fact */ 
 
+
+
 .fact{
-    width: 50%;
+    width: 50%;  
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
+    justify-content: flex-end;
+    margin-top: -80px ;
 }
 
-.div_container_div_svg{
+
+
+.div_container_div_svg1,.div_container_div_svg2{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 25%;
 }
+
+
 
 .layout_div_svg{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 0;
     
 }
+
+
+
 
 .fact_top{
     display: flex;
@@ -135,9 +161,19 @@ span{
     flex-direction: column;
 }
 
+
+
 .svg{
-    width: 15%;
+    width: 40%;
 }
+
+.p_fact{
+    margin-bottom: 0;
+}
+
+
+
+
 
 /* contact us */
 .contact_us{
@@ -150,3 +186,7 @@ span{
 
 }
 
+.contact_detail{
+    font-size: 1.3em;
+    margin: 40px 0;
+}
