@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -25,6 +26,11 @@ html{
     margin-bottom: 80px;
 }
 
+.content_reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 80px;
+}
 
 .img_content{
     width: 50%;
@@ -127,7 +133,8 @@ span{
     align-items: center;
     flex-direction: column;  
     justify-content: flex-end;
-    margin-top: -80px ;
+    margin-top: -60px ;
+   
 }
 
 
@@ -189,4 +196,9 @@ span{
 .contact_detail{
     font-size: 1.3em;
     margin: 40px 0;
+}
+
+.img_content_map{
+    width: 50%;
+    margin-bottom: 5px;
 }
