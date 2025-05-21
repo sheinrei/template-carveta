@@ -1,5 +1,14 @@
+@media (min-width:1024px){
+
+
+/* egarder object-fit:*/
 html{
-    font-family: "lisu Bosa";
+    font-family: "lisu Bosa" sans-serif;
+    font-size: 17px;
+}
+
+.main_container{
+    width: 100%;
 }
 
 body{
@@ -7,8 +16,107 @@ body{
     padding: 0;
 }
 
-html{
-    font-size: 17px;
+/* Header*/
+
+header {
+    position: relative;
+    width: 100%;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.top_header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+
+
+}
+
+.header_side_barre {
+    display: none;
+}
+
+.header_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header_a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header_reseau_sociaux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.header_reservation {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+
+}
+
+.header_contact {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+.middle_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFF;
+    font-weight: bolder;
+    padding-bottom: 100px;
+
+}
+
+.big_title {
+    font-size: 5em;
+}
+
+.tripadvisor {
+    height: 30px;
 }
 
 /* preambul */
@@ -37,11 +145,10 @@ html{
 
 .img_content{
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    object-fit: fill;   
 }
+
+
 
 .title_content{
     color:rgb(148, 197, 205);
@@ -88,8 +195,9 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 5%;
+    padding: 0 5%;
 }
+
 
 /* Menu */
 .menu_content{
@@ -97,6 +205,7 @@ span{
     width: 50%;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
 
 }   
 
@@ -199,9 +308,105 @@ span{
 .contact_detail{
     font-size: 1.3em;
     margin: 40px 0;
+
+    
 }
 
 .img_content_map{
     width: 50%;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    display: flex; 
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
+
+.footer_by_two {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.footer_txt_one,
+.footer_txt_two {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.footer_content_one {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 167, 167);
+    margin-left: 15%;
+}
+
+.footer_content_two {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 167, 167)
+}
+
+.footer_content_three {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 167, 167);
+
+}
+
+.footer_content_four {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(167, 167, 167);
+
+}
+
+.footer_end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7.5%;
+    color: rgb(167, 167, 167);
+    margin-bottom: 2%;
+}
+
+.tripadvisor2 {
+    height: 30px;
+    position: relative;
+    top: 8px
+}
+
+.container_img_footer {
+    display: flex;
+}
+
+.img_footer {
+    width: calc(100%/8);
+}
+
+.footer_title {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.footer_a {
+    text-decoration: none;
+    color: rgb(167, 167, 167)
+}
 }
